@@ -1,10 +1,21 @@
 body {
   background-image: linear-gradient(to bottom right, #7118ff, black);
-  color: white;
+  background-repeat: repeat-y;
+  background-repeat: repeat-x;
 }
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+img {
+  width: 0px;
+  min-height: auto;
+  box-shadow: 15px 15px 100px;
+  margin-bottom: 125px;
+  margin-top: 125px;
+}
+.social {
+  color: white;
 }
