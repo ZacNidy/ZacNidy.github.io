@@ -1,5 +1,5 @@
 html {
-  background-color: black;
+  background-color: #050054;
   background-size: 1000px 1000px;
 }
 body::-webkit-scrollbar {
@@ -15,7 +15,13 @@ a {
   margin-right: auto;
   width: 50%;
 }
-img {
+.social {
+  width: 25px;
+  height: auto;
+  padding: 10px;
+  margin-top: 25px;
+}
+.mainimg {
   width: auto;
   height: auto;
   margin-bottom: 125px;
@@ -69,4 +75,14 @@ img {
   55% {
     box-shadow: none;
   }
+}
+.container {
+  position: relative;
+  min-height: 100vh;
+}
+.vertical-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
